@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Currently, I'm working as a software developer at a startup company in Santa Clara, CA. 
 
-### More Information
+I'm seeking for full-time position of Software Engineer.
 
-A place to include any other types of information that you'd like to include about yourself.
+You can find my resume [here](https://github.com/HongyangYu/resume).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[hongyangyu.henry@gmail.com](mailto:email@domain.com)

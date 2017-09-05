@@ -8,7 +8,7 @@ Currently, I'm working as a software developer at a startup company in Santa Cla
 
 I'm seeking for full-time position of Software Engineer.
 
-You can find my resume [here](https://github.com/HongyangYu/resume).
+You can find my resume [here](https://github.com/HongyangYu/resume "Take A Look At My Resume").
 
 ### Contact me
 

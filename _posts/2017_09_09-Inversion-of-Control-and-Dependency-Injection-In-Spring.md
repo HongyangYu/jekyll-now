@@ -107,3 +107,8 @@ public class ActivityService {
     // ...
 }
 ```
+
+## Reference
+1. Wikipedia: [Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection)
+2. Wikipedia: [Inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control)
+3. Spring: [New Features and Enhancements in Spring Framework 4.3](https://docs.spring.io/spring/docs/current/spring-framework-reference/html/new-in-4.3.html)

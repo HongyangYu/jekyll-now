@@ -11,16 +11,16 @@ Bit manipulation includes & (and), | (or), ~ (not) and ^ (exclusive-or, xor) and
 
 ## 2. Examples
 
-### Basics
+### 2.1 Basics
 
-* Remove the last 1 bit: _ n&(n-1) _
-E.g. _ n=10 => 1010 & 1001 = 1000 _
+* Remove the last 1 bit:  n&(n-1)
+E.g. n=10 => 1010 & 1001 = 1000
 
-* Get all 1 bits: _ ~0 _ or _ 0xffffffff _
+* Get all 1 bits: ~0 or 0xffffffff
 
-* Check even or odd: _ n&1==1 _ then odd else even 
+* Check even or odd: n&1==1 then odd else even 
 
-### Number of 1 Bits
+### 2.2 Number of 1 Bits
 
 Task: Write a function that takes an unsigned integer and returns the number of ’1' bits it has (also known as the Hamming weight). For example, the 32-bit integer '11' has binary representation 00000000000000000000000000001011, so the function should return 3.<br>
 
@@ -70,7 +70,7 @@ Attention: The function Integer.bitCount(int) returns the number of one-bits in 
     }
 ```
 
-### Is power of four
+### 2.3 Is power of four
 
 Task: Check whether the input number is power of four
 ```
@@ -87,7 +87,7 @@ E.g. 1=1, 4=100, 16=10000. If the 1 bit is removed, it should be 0. <br>
 n&0x55555555 defines the place where the 1 bit should appear. <br>
 
 
-### Sum of two integers
+### 2.4 Sum of two integers
     
 Task: Calculate the sum of two integers a and b, but you are not allowed to use the operator + and - <br>
 
@@ -101,7 +101,7 @@ a^b : a+b without carry <br>
 a&b : a+b with carry <br>
 Terminating condition: no carry in any bit, then a+b is equal to a&b.  <br>
 
-### Single Number
+### 2.5 Single Number
 
 Task: Given an array of integers, every element appears twice except for one. Find that single one. <br>
 
@@ -115,7 +115,7 @@ Idea: Use ^ to remove numbers appear even times.
         return res;
     }
 ```
-### Largest power of 2
+### 2.6 Largest power of 2
 
 Task: Find the largest power of 2 which is less than or equal to the given number N.
 ```
@@ -131,7 +131,7 @@ Task: Find the largest power of 2 which is less than or equal to the given numbe
 ```
 The left shift is to fill 1 after the most significant bit. That is, 1001 will become 1111.
 
-### Reverse bits
+### 2.7 Reverse bits
 
 Task: Reverse bits of a given 32 bits unsigned integer.
 ```
@@ -146,7 +146,7 @@ Task: Reverse bits of a given 32 bits unsigned integer.
         return res;
     }
 ```
-## Repeated DNA Sequences
+### 2.8 Repeated DNA Sequences
 
 Task: All DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, for example: "ACGAATTCCG". When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.
 Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
